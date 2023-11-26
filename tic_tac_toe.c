@@ -23,7 +23,6 @@ int main(void){
         oyuncuGirdisi();
         bilgisayarSirasi();
         kazananKontrol();
-        printf("-----------------\n");
 
 
     }while(!(tumKutucuklarDoluMu()) && !(kazananKisi == 'X' || kazananKisi == 'O' )); // iki kere mi fonksiyon calisiyor?
